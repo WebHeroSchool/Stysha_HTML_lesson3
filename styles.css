@@ -1,6 +1,75 @@
-﻿.body {
-  font-family: Helvetica;
+﻿.a {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  width: 68px;
+  height: 3px;
+  left: calc(50% - 68px/2 + 479px);
+  top: 69px;
+  background: #0056EC;
 }
+
 .title {
+  font-family: 'PT Serif', serif;
+  position: absolute;
+  width: 567px;
+  height: 255px;
+  left: calc(50% - 567px/2 - 481.5px);
+  top: 318px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 66px;
+  line-height: 87px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+
+}
+
+.b {
+
+  font-family: PT Serif;
+  position: absolute;
+  width: 146px;
+  height: 32px;
+  left: calc(50% - 146px/2 - 647px);
+  top: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.c {
+
   font-family: Roboto;
+  position: absolute;
+  width: 250px;
+  height: 29px;
+  left: calc(50% - 250px/2 - 618px);
+  top: 724px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+shedule {
+  font-family: Roboto;
+  position: absolute;
+  width: 250px;
+  height: 29px;
+  left: calc(50% - 250px/2 - 618px);
+  top: 724px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  border-radius: 4px;
 }
